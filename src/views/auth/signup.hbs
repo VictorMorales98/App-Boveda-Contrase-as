@@ -1,0 +1,40 @@
+<header id="head" class="secondary"></header>
+
+<div class="container">
+    <div class="row2">
+        <div class="col-md-4 mx-auto">        
+            <div class="card text-center">
+                <div class="card-header">
+                    <h2><b>Registro</b></h2>
+                </div>
+                <div class="card-body">
+                    <form action="/signup" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="nombre" placeholder="Nombre" class="form-control" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="e-mail" placeholder="Correo" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="username" placeholder="Nombre de Usuario" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" placeholder="Contraseña" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="confpassword" placeholder="Confirmar Contraseña" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-success btn-block">
+                                Registrar
+                            </button>
+                        </div>
+                        <div class="form-group">
+                            Ya tienes cuenta, entonces <a href="/signin">Inicia Sesión</a>.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

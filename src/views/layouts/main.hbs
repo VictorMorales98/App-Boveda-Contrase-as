@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{!-- ICONO --}}
+    <link rel="shortcut icon" href="/src/public/img/favicon.png">
+    <title>Kryptos</title>
+    
+    {{!-- GOOGLE FONTS --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+
+    {{!-- BOOSTRAPt 5 --}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    --}}
+
+    {{!-- FONT AWESOME --}}
+    <script src="https://kit.fontawesome.com/8e2f30df49.js" crossorigin="anonymous"></script>
+
+    {{!-- STYLES --}}
+    <link rel="stylesheet" href="/src/public/css/styles.css">
+    <link rel="stylesheet" href="/src/public/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/src/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/public/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/src/public/css/main.css">
+    <link rel="stylesheet" href="/src/public/css/master.css">
+    <link rel="stylesheet" href="/src/public/css/bootstrap.css">
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 302px;
+        }
+
+        .auto-style3 {
+            width: 351px;
+        }
+    </style>
+
+</head>
+<body>
+    {{> navigation }}
+{{!--
+    {{> message }}
+--}}
+    {{{ body }}}
+
+    {{> footer }}
+
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="/src/public/js/headroom.min.js"></script>
+	<script src="/src/public/js/jQuery.headroom.min.js"></script>
+	<script src="/src/public/js/template.js"></script>
+</body>
+</html>
